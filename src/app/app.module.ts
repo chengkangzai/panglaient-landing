@@ -9,6 +9,13 @@ import { ProductListingComponent } from './product-listing/product-listing.compo
 import { BantalComponent } from './product-listing/bantal/bantal.component';
 import { BedSheetComponent } from './product-listing/bed-sheet/bed-sheet.component';
 import { WhyUsComponent } from './why-us/why-us.component';
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {HttpClient} from "@angular/common/http";
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -19,12 +26,21 @@ import { WhyUsComponent } from './why-us/why-us.component';
     ProductListingComponent,
     BantalComponent,
     BedSheetComponent,
-    WhyUsComponent
+    WhyUsComponent,
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
