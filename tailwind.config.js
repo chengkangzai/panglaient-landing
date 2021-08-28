@@ -1,12 +1,11 @@
 module.exports = {
-  prefix: '',
   purge: {
     enable: true,
     content: [
       './src/**/*.{html,ts}',
     ]
   },
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
@@ -14,4 +13,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+}
