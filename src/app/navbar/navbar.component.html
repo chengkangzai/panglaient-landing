@@ -5,33 +5,35 @@
       <div class="p-4 flex flex-row items-center justify-between">
         <a href="/"
            class="text-lg font-semibold tracking-widest text-white uppercase rounded-lg focus:outline-none focus:shadow-outline">
-          Pang Lai Ent</a>
+          {{'nav.Pang Lai Ent' | translate}}
+        </a>
         <button aria-label="Open Dropdown navigation"
                 class="md:hidden rounded-lg focus:outline-none focus:shadow-outline">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
             <path fill-rule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                  clip-rule="evenodd"></path><!----><!----></svg>
+                  clip-rule="evenodd"></path>
+          </svg>
         </button>
       </div>
       <nav
         class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row bg-white md:bg-transparent rounded-lg md:rounded-none z-20 text-black md:text-white">
         <a href="#product"
            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-          Our Product
+          {{'nav.Our Product' | translate}}
         </a>
         <a href="#why-us"
            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-          Why Us
+          {{'nav.Why Us' | translate}}
         </a>
         <a href="#contact"
            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-          Contact Us
+          {{'nav.Contact Us' | translate}}
         </a>
         <div class="relative md:block">
           <button (click)="isOpen=!isOpen"
-            class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-            <span>Select Language</span>
+                  class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+            <span>{{'nav.Select Language' | translate}}</span>
             <svg fill="currentColor" viewBox="0 0 20 20"
                  class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1 rotate-180">
               <path fill-rule="evenodd"
@@ -41,14 +43,14 @@
           </button>
           <div class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-20" *ngIf="isOpen">
             <div class="px-2 py-2 bg-gray-100 rounded-md shadow text-black">
-              <a id="en"
+              <a id="en" (click)="changeLang('en')"
                  class="cursor-pointer block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                 English
               </a>
-              <a id="ms"
+              <a id="ms" (click)="changeLang('ms')"
                  class="cursor-pointer block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                 Bahasa Malaysia</a>
-              <a id="zh"
+              <a id="zh" (click)="changeLang('zh')"
                  class="cursor-pointer block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                 简体中文
               </a>

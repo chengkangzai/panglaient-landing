@@ -10,8 +10,9 @@ import { BantalComponent } from './product-listing/bantal/bantal.component';
 import { BedSheetComponent } from './product-listing/bed-sheet/bed-sheet.component';
 import { WhyUsComponent } from './why-us/why-us.component';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import { FooterComponent } from './footer/footer.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,10 +28,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     BantalComponent,
     BedSheetComponent,
     WhyUsComponent,
+    FooterComponent,
 
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
