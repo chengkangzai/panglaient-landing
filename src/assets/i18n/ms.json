@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "Pang Lai Ent": "Pang Lai Ent",
+    "Our Product": "Produk Kami",
+    "Why Us": "Kenapa Kami",
+    "Contact Us": "Hubungi Kami",
+    "Select Language": "Pilih Bahasa"
+  },
+  "index": {
+    "Your Most trusted": "Yang anda dipercayai, ",
+    "home and living store in": "Kedai menjual keperluan rumah di",
+    "Kluang, Johor": "Kluang, Johor .",
+    "We sell patchwork product such as": "Kami menjual produk Patchwork seperti",
+    "Car Seat, Comforter, Capet, Bed sheets.": "Alas Kusyen Tempat Duduk Kereta, Selimut, Carpet, Cadar",
+    "We also sell": "Kami juga menjual product ",
+    "Buckwheat Hull Pillow that Suitable for all ages.": "<strong>Bantal lambung soba</strong> yang sesuai untuk semua peringkat umur.<br>",
+    "Shopee": "Shopee",
+    "Lazada": "Lazada",
+    "Physical Store": "Kedai Fizikal"
+  },
+  "why-us": {
+    "Why Choose Us ?": "Kenapa pilih kami ?",
+    "Pang Lai Enterprise trusted by the customer since 2014 till now in Kluang, Johor.": "Pang Lai Enterprise dipercayai oleh pelanggan sejak 2014 hingga sekarang di Kluang, Johor.",
+    "Reasonable Priced": "Harga Berpatutan",
+    "We trust the superior quality and reasonable price of our product is the best for our customer.": "Kami mempercayai kualiti unggul dan harga berpatutan produk kami adalah yang terbaik untuk pelanggan kami.",
+    "Friendly and Creditable Services": "Perkhidmatan Mesra dan Berkredibiliti",
+    "Services are acknowledge and loved by the Customer for x Years in Kluang, Johor.": "Perkhidmatan diakui dan disukai oleh Pelanggan selama {{value}} Tahun di Kluang, Johor.",
+    "Product are suitable for all aged": "Produk sesuai untuk semua peringkat umur",
+    "Our product is not only targeted to the new born, We have product that is suitable for all age": "Produk kami tidak hanya disasarkan kepada yang baru lahir, Kami mempunyai produk yang sesuai untuk semua peringkat usia",
+    "Comfort life at Home": "Hidup selesa di Rumah",
+    "All of the products are examine and tested by the company to provide the ultimate comfortless.": "Semua produk diperiksa dan diuji oleh kami untuk memberikan rasa selesa yang terbaik."
+  },
+  "product": {
+    "Our Product": "Produk kami",
+    "Buckwheat hull Pillow": "Bantal lambung soba",
+    "The buckwheat hull pillow has a variety of products suitable of all ages, from infants to the elderly.": "Bantal lambung soba mempunyai pelbagai produk yang sesuai untuk semua peringkat usia, dari bayi hingga warga emas",
+    "The pillowcase and pillow core have separate high-quality silver zippers, which are convenient to adjust the amount of buckwheat husks to obtain a suitable height.": "Sarung bantal dan teras bantal mempunyai ritsleting berkualiti tinggi yang berasingan, ia memudahkan untuk menyesuaikan jumlah biji soba untuk mendapatkan ketinggian yang sesuai.",
+    "Patchwork Bed Sheet": "Cadar Patchwork",
+    "Patchwork sheets are a product of the new generation, available in many sizes, neat and beautiful, easy to organize and clean.": "Patchwork adalah produk generasi baru, tersedia dalam pelbagai saiz, kemas dan cantik, senang disusun dan dibersihkan.",
+    "Patchwork Car Seat Covers": "Alas Kusyen Tempat Duduk Kereta Patchwork",
+    "The new generation patchwork also has other products: car cushions, sofa cushions, and floor cushions.": "Patchwork adalah produk generasi baru, tersedia dalam pelbagai saiz, kemas dan cantik, senang disusun dan dibersihkan."
+  },
+  "contact": {
+    "Get in touch": "Hubungi kami"
+  },
+  "footer": {
+    "Pang Lai Enterprise": "Pang Lai Enterprise",
+    "All rights reserved": "Hak cipta terpelihara"
+  }
+}

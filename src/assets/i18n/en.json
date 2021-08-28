@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "Pang Lai Ent": "Pang Lai Ent",
+    "Our Product": "Our Product",
+    "Why Us": "Why Us",
+    "Contact Us": "Contact Us",
+    "Select Language": "Select Language"
+  },
+  "index": {
+    "Your Most trusted": "Your Most trusted, ",
+    "home and living store in": "home and living store in",
+    "Kluang, Johor": "Kluang, Johor .",
+    "We sell patchwork product such as": "We sell patchwork product such as",
+    "Car Seat, Comforter, Capet, Bed sheets.": "Car Seat Covers, Comforter, Carpet, Bed sheets.",
+    "We also sell": "We also sell",
+    "Buckwheat Hull Pillow that Suitable for all ages.": "<strong>Buckwheat Hull Pillow</strong> that Suitable for all ages.<br>",
+    "Shopee": "Shopee",
+    "Lazada": "Lazada",
+    "Physical Store": "Physical Store"
+  },
+  "why-us": {
+    "Why Choose Us ?": "Why Choose Us ?",
+    "Pang Lai Enterprise trusted by the customer since 2014 till now in Kluang, Johor.": "Pang Lai Enterprise trusted by the customer since 2014 till now in Kluang, Johor.",
+    "Reasonable Priced": "Reasonable Priced",
+    "We trust the superior quality and reasonable price of our product is the best for our customer.": "We trust the superior quality and reasonable price of our product is the best for our customer.",
+    "Friendly and Creditable Services": "Friendly and Creditable Services",
+    "Services are acknowledge and loved by the Customer for x Years in Kluang, Johor.": "Services acknowledge and loved by the Customer for {{value}} Years in Kluang, Johor.",
+    "Product are suitable for all aged": "Product is suitable for all age",
+    "Our product is not only targeted to the new born, We have product that is suitable for all age": "Our product is not only targeted to the newborn, We have product that is suitable for all age",
+    "Comfort life at Home": "Comfort life at Home",
+    "All of the products are examine and tested by the company to provide the ultimate comfortless.": "All of the products are examine and tested by the company to provide the ultimate comfortless."
+  },
+  "product": {
+    "Our Product": "Our Product",
+    "Buckwheat hull Pillow": "Buckwheat hull Pillow",
+    "The buckwheat hull pillow has a variety of products suitable of all ages, from infants to the elderly.": "The buckwheat hull pillow has a variety of products suitable of all ages, from infants to the elderly.",
+    "The pillowcase and pillow core have separate high-quality silver zippers, which are convenient to adjust the amount of buckwheat husks to obtain a suitable height.": "The pillowcase and inner-pillow have separate high-quality, which are convenient to adjust the amount of buckwheat hull to obtain a suitable height.",
+    "Patchwork Bed Sheet": "Patchwork Bed Sheet",
+    "Patchwork sheets are a product of the new generation, available in many sizes, neat and beautiful, easy to organize and clean.": "Patchwork sheets are a product of the new generation, available in many sizes, neat and beautiful, easy to organize and clean.",
+    "Patchwork Car Seat Covers": "Patchwork Car Seat Covers",
+    "The new generation patchwork also has other products: car cushions, sofa cushions, and floor cushions.": "The new generation patchwork also has other products: car cushions, sofa cushions, and floor cushions."
+  },
+  "contact": {
+    "Get in touch": "Get in touch"
+  },
+  "footer": {
+    "Pang Lai Enterprise": "Pang Lai Enterprise",
+    "All rights reserved": "All rights reserved"
+  }
+}

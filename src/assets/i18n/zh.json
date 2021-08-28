@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "Pang Lai Ent": "方来企业",
+    "Our Product": "我们的产品",
+    "Why Us": "为何选择我们",
+    "Contact Us": "联系我们",
+    "Select Language": "选择语言"
+  },
+  "index": {
+    "Your Most trusted": "您最信任的，",
+    "home and living store in": "家居与生活商店位于",
+    "Kluang, Johor": " 柔佛州，居銮.",
+    "We sell patchwork product such as": "我们销售拼布产品，例如",
+    "Car Seat, Comforter, Capet, Bed sheets.": "汽车座套、被子、地毯、床单。",
+    "We also sell": "我们也售卖",
+    "Buckwheat Hull Pillow that Suitable for all ages.": "<strong>荞麦壳枕头</strong>。<br>",
+    "Shopee": "虾皮",
+    "Lazada": "来赞达",
+    "Physical Store": "实体店"
+  },
+  "why-us": {
+    "Why Choose Us ?": "为什么选择我们 ？",
+    "Pang Lai Enterprise trusted by the customer since 2014 till now in Kluang, Johor.": "方来企业自2014年至今在柔佛居銮深受客户信赖.",
+    "Reasonable Priced": "合理的价钱",
+    "We trust the superior quality and reasonable price of our product is the best for our customer.": "对于顾客来说，我们的产品是物超所值的",
+    "Friendly and Creditable Services": "友善和可信用的服务",
+    "Services are acknowledge and loved by the Customer for x Years in Kluang, Johor.": "这 {{value}} 年来，因为我们的服务态度，很多顾客都会回头购买",
+    "Product are suitable for all aged": "老少咸宜的产品",
+    "Our product is not only targeted to the new born, We have product that is suitable for all age": "我们的产品不仅针对新生儿，也适合不同年龄层",
+    "Comfort life at Home": "居家的舒适生活",
+    "All of the products are examine and tested by the company to provide the ultimate comfortless.": "从荞麦壳枕头得到小孩的喜爱，到多用途的拼布产品得到主妇们的热爱，因而能打到居家舒适"
+  },
+  "product": {
+    "Our Product": "我们的产品",
+    "Buckwheat hull Pillow": "荞麦壳枕头",
+    "The buckwheat hull pillow has a variety of products suitable of all ages, from infants to the elderly.": "荞麦壳枕头，有多个尺寸适合跨越各个年龄层，从初生婴孩到年长者都有适合的产品。",
+    "The pillowcase and pillow core have separate high-quality silver zippers, which are convenient to adjust the amount of buckwheat husks to obtain a suitable height.": "枕套，枕芯分别都有单独的高质量拉链，方便调整荞麦壳的份量，以取得适合的高度",
+    "Patchwork Bed Sheet": "拼布床单",
+    "Patchwork sheets are a product of the new generation, available in many sizes, neat and beautiful, easy to organize and clean.": "拼布床单是新世代的产品，有多种尺寸，整齐美观，容易整理和清洗。",
+    "Patchwork Car Seat Covers": "拼布汽车座垫",
+    "The new generation patchwork also has other products: car cushions, sofa cushions, and floor cushions.": "新世代拼布也拥有其他的产品：汽车坐垫，沙发坐垫，地垫。"
+  },
+  "contact": {
+    "Get in touch": "保持联系"
+  },
+  "footer": {
+    "Pang Lai Enterprise": "方来企业",
+    "All rights reserved": "版权所有"
+  }
+}

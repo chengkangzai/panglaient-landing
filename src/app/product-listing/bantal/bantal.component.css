@@ -1,0 +1,35 @@
+.bantal-carousel-open:checked + .bantal-carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+.bantal-carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+#bantal-carousel-1:checked ~ .control-1,
+#bantal-carousel-2:checked ~ .control-2,
+#bantal-carousel-3:checked ~ .control-3,
+#bantal-carousel-4:checked ~ .control-4 {
+  display: block;
+}
+
+.bantal-carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#bantal-carousel-1:checked ~ .control-1 ~ .bantal-carousel-indicators li:nth-child(1) .bantal-carousel-bullet,
+#bantal-carousel-2:checked ~ .control-2 ~ .bantal-carousel-indicators li:nth-child(2) .bantal-carousel-bullet,
+#bantal-carousel-3:checked ~ .control-3 ~ .bantal-carousel-indicators li:nth-child(3) .bantal-carousel-bullet,
+#bantal-carousel-4:checked ~ .control-4 ~ .bantal-carousel-indicators li:nth-child(4) .bantal-carousel-bullet {
+  color: #2b6cb0; /*Set to match the Tailwind colour you want the active one to be */
+}
